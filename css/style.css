@@ -1,0 +1,12 @@
+:root {
+  --roxo: hsl(263, 55%, 52%);
+  --azul-acinzentado-escuro: hsl(217, 19%, 35%);
+  --azul-negro-escuro: hsl(219, 29%, 14%);
+  --branco: hsl(0, 0%, 100%);
+  --cinza-claro: hsl(0, 0%, 81%);
+  --azul-acinzentado-claro: hsl(210, 46%, 95%);
+}
+
+body {
+  font-size: 13px;
+}
