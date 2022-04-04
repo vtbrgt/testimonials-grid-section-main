@@ -8,5 +8,43 @@
 }
 
 body {
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
+}
+
+.container {
+  display: grid;
+  gap: 25px;
+  width: 50%;
+  grid-row: 1;
+}
+
+.box {
+  border-radius: 2px;
+  padding: 1rem;
+}
+
+.box.daniel {
+  color: var(--branco);
+  background-color: var(--roxo);
+}
+
+.box.jonathan {
+  color: var(--branco);
+  background-color: var(--azul-acinzentado-escuro);
+}
+
+.box.jeanette {
+  color: var(--azul-acinzentado-escuro);
+  background-color: var(--branco);
+}
+
+.box.patrick {
+  color: var(--branco);
+  background-color: var(--azul-negro-escuro);
+}
+
+.box.kira {
+  color: var(--azul-acinzentado-escuro);
+  background-color: var(--branco);
 }
