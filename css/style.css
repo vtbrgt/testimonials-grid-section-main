@@ -20,24 +20,32 @@ body {
   height: 100%;
   width: 100%;
   gap: 1.2rem 1.8rem;
-  /* padding: 5rem 3rem; */
+  padding: 6rem 2rem;
 }
 
 .box {
   border-radius: 5px;
   padding: 1rem;
+  height: 225px;
 }
 
-.nome {
+.infos_pessoais {
   display: flex;
-}
-
-.nome p {
-  align-self: center;
+  align-items: center;
 }
 
 .avatar {
   border-radius: 50%;
+  width: 30px;
+}
+
+.infos_pessoais_textos {
+  padding-left: 0.75rem;
+}
+
+.testemunho,
+.citacao {
+  padding-top: 0.8rem;
 }
 
 .box.daniel {
@@ -74,6 +82,8 @@ body {
 .box.kira {
   color: var(--azul-acinzentado-escuro);
   background-color: var(--branco);
+  height: 92.5%;
+  width: 50%;
   grid-column: 4 / 5;
   grid-row: 1 / 3;
 }
