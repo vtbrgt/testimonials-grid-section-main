@@ -10,6 +10,7 @@
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
+  font-weight: 500;
   background-color: var(--azul-acinzentado-claro);
 }
 
@@ -20,13 +21,58 @@ body {
   height: 100%;
   width: 100%;
   gap: 1.2rem 1.8rem;
-  padding: 6rem 2rem;
+  padding: 12rem 2rem;
 }
 
 .box {
-  border-radius: 5px;
-  padding: 1rem;
-  height: 225px;
+  border-radius: 10px;
+  padding: 1.5rem;
+  height: 270px;
+  line-height: 1.2rem;
+}
+
+.box.daniel {
+  color: var(--branco);
+  background-color: var(--roxo);
+  grid-column: 1 / 3;
+  grid-row: 1 / 1;
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top 0px right 75px;
+  width: 80%;
+}
+
+.box.jonathan {
+  color: var(--branco);
+  background-color: var(--azul-acinzentado-escuro);
+  grid-column: 3 / 4;
+  grid-row: 1 / 1;
+  width: 60%;
+}
+
+.box.jeanette {
+  color: var(--azul-acinzentado-escuro);
+  background-color: var(--branco);
+  grid-column: 1 / 2;
+  grid-row: 2 / 2;
+  width: 65%;
+}
+
+.box.patrick {
+  color: var(--branco);
+  background-color: var(--azul-negro-escuro);
+  grid-column: 2 / 4;
+  grid-row: 2 / 2;
+}
+
+.box.kira {
+  color: var(--azul-acinzentado-escuro);
+  background-color: var(--branco);
+  height: 92.5%;
+  width: 50%;
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
+  width: 62%;
 }
 
 .infos_pessoais {
@@ -48,42 +94,23 @@ body {
   padding-top: 0.8rem;
 }
 
-.box.daniel {
-  color: var(--branco);
-  background-color: var(--roxo);
-  grid-column: 1 / 3;
-  grid-row: 1 / 1;
-  background-image: url(../images/bg-pattern-quotation.svg);
-  background-repeat: no-repeat;
-  background-position: top 0px right 75px;
+.testemunho {
+  display: flex;
+  flex-direction: column;
 }
 
-.box.jonathan {
-  color: var(--branco);
-  background-color: var(--azul-acinzentado-escuro);
-  grid-column: 3 / 4;
-  grid-row: 1 / 1;
+.comentario {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.4rem;
 }
 
-.box.jeanette {
-  color: var(--azul-acinzentado-escuro);
-  background-color: var(--branco);
-  grid-column: 1 / 2;
-  grid-row: 2 / 2;
+.verificacao {
+  opacity: 50%;
 }
 
-.box.patrick {
-  color: var(--branco);
-  background-color: var(--azul-negro-escuro);
-  grid-column: 2 / 4;
-  grid-row: 2 / 2;
-}
-
-.box.kira {
-  color: var(--azul-acinzentado-escuro);
-  background-color: var(--branco);
-  height: 92.5%;
-  width: 50%;
-  grid-column: 4 / 5;
-  grid-row: 1 / 3;
+.citacao {
+  opacity: 70%;
+  align-self: baseline;
+  font-size: 15px;
 }
