@@ -1,6 +1,8 @@
 # Testimonials Grid Section
 <img src="./images/bg-pattern-quotation.svg">
 
+![badge-status](https://img.shields.io/badge/status-FINALIZADO-green?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/vtbrgt/testimonials-grid-section-main?style=for-the-badge)
 # Descrição do projeto
 
 Criação de uma página estática de comentários de usuários. Usando challenge do [Frontend Mentor](https://www.frontendmentor.io/) como base. Projeto feito com o intuito de expandir meus conhecimentos de **CSS Grid**.
